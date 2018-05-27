@@ -89,7 +89,8 @@ This will run the application on the port 8888. All the APIs exposed can be acce
  
  ### Conclusion
  In compositional micro-services based architecture, **think EVENT based inter module interactions.** This make each micro-service 
- independent of each other. This helps in rolling out new functionality as micro-service fast. Also this style aides
- in building serverless micro-services or function as service.
+ independent of each other. This helps in rolling out new functionality as micro-service fast. Also this architecture & programing style aides
+ in building serverless micro-services or function as service. At the end it's all about how business functionality can be take to production 
+ as fast as possible.
  
  
