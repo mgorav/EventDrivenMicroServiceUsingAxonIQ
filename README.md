@@ -1,5 +1,7 @@
 ##  Command Query Responsibility Segregation (CQRS) Using Event Driven Architecture (EDA) With Spring BOOT + AxonIQ + Async JPA Persistence
 
+
+### Overview
 The starting point of CQRS design pattern is the notion of differentiating between READ and WRITE model. In the essence 
 this design professes if the QUERY capabilities of an application is very different or complex or may be relational DB are
 not apt for it, it's better to separate/segregate  query model.
@@ -19,6 +21,7 @@ NOTE:
 3. Event Driven != CQRS
 4. Event is never physically deleted i.e. delete is an another event. This aides in ML and AI
 
+### Monolith And Micro-Services
 In my opinion a monolithic application can be split into micro-services based architecture in following steps:
 
 **Step 1.** Implement Modularization i.e. create modules, each module is dedicated to perform single functional responsibility
