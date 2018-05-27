@@ -8,7 +8,7 @@ relational DB are not apt for querying (scalable), it's better to separate/segre
 
 The corner stone in implementing CQRS is **Event Driven Architecture**. In simple terminology, in event driven architecture,
 modules interact with each other using EVENT and each module are independent & not aware of each other. The module 
-enroll/subscribe to event & take actions. This enable use to cut the module dependencies (in pom.xml) and ease out 
+enroll/subscribe to event & take actions. It also help in cutting module dependencies (in pom.xml) and ease out 
 creation of micro-services.
 
 The following picture shows CQRS design pattern build using event driven architecture:
