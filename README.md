@@ -35,6 +35,8 @@ EventDrivenMicroServiceUsingAxonIQ mico-serivce is Policy application with:
 3. Events are stored in embedded AxonIQDB  (using async JPA)
 4. READ is performed using JPA [using jpa-eclipselink](https://github.com/mgorav/jpa-eclipselink) + Derby
 
+NOTE: In above programining style, write needs to fast & asynchronous. JPA vendor does not provide async persitence but 
+[using jpa-eclipselink](https://github.com/mgorav/jpa-eclipselink) this can be achieved
  
 
 ### Instructions to setup and run EventDrivenMicroServiceUsingAxonIQ
