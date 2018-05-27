@@ -46,7 +46,7 @@ an other protocol) to action on the event request.
 6. Clear separation of domain object from entity (Policy is domain object & PolicyEntity is an entity - see class diagram below)
 
 **NOTE:** 
-1) In above programming style, write needs to fast & asynchronous. JPA vendor does not provide async persistence but 
+1) In above programming style, write needs to fast & asynchronous. JPA vendors does not provide async persistence but 
 [using jpa-eclipselink](https://github.com/mgorav/jpa-eclipselink) this can be achieved.
 2) Domain model is not anemic and also there is a clear separation of domain API from entity (persistence mechanism), 
 they are not tightly coupled. This is of great help in creating modularization.
