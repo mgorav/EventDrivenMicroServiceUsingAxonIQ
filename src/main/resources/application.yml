@@ -1,0 +1,39 @@
+
+gm:
+  shared:
+    restgraph:
+      enabled: false
+    jpa:
+      enabled: true
+      async-persistence: false
+      properties:
+        eclipselink.cache-usage: CheckCacheThenDatabase
+        eclipselink-logging: false
+        eclipselink-performance.profiler: false
+        eclipselink-async-commitcount: 1000
+        eclipselink.logging.timestamp: true
+        eclipselink.logging.session: true
+        eclipselink.logging.connection: true
+        eclipselink.logging.thread: true
+        eclipselink.logging.level.transaction: ALL
+        eclipselink.logging.level.sql: ALL
+        eclipselink.logging.level.event: ALL
+        eclipselink.logging.level.connection: ALL
+        eclipselink.logging.level.query: ALL
+        eclipselink.logging.level.cache: ALL
+        eclipselink.logging.level: ALL
+        eclipselink.logging.parameters: true
+      datasource:
+        platform: derby
+        initialize: true
+        tomcat:
+          test-on-borrow: true
+          driver-class-name:  org.apache.derby.jdbc.EmbeddedDriver
+          username: app
+          password: ""
+          url: jdbc:derby:jdbc:derby:derby-home/application;
+          max-active: 20
+          min-idle: 10
+          initial-size: 20
+server:
+  port: 8888
