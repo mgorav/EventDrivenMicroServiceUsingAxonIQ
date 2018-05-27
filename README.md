@@ -1,4 +1,4 @@
-##  CQRS Using Event Driven Architecture With Spring BOOT + AxonIQ + Async JPA Persistence
+##  Command Query Responsibility Segregation (CQRS) Using Event Driven Architecture (EDA) With Spring BOOT + AxonIQ + Async JPA Persistence
 
 The starting point of CQRS design pattern is the notion of differentiating between READ and WRITE model. In the essence 
 this design professes if the QUERY capabilities of an application is very different or complex or may be relational DB are
