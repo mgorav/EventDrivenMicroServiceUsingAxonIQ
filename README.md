@@ -24,10 +24,10 @@ _**NOTE: Key Concepts Normally Mixed  Up**_
 ### Monolith Splits To Micro-Services And Role Of EDA
 In my opinion a monolithic application can be split into micro-services based architecture in following steps:
 
-**Step 1.** Implement Modularization i.e. create modules, each module is dedicated to perform single functional responsibility
+**Step 1. Implement Modularization**i.e. create modules, each module is dedicated to perform single functional responsibility
    (also termed implementation of separation of concerns)
 
-**Step 2.** Cut Module inter-dependencies
+**Step 2. Cut Module inter-dependencies**
 
 The **Step 2** is very important and is the make or break situation in the endeavour to rollout micro-services based architecture.
 Event Driven architecture style plays very important part in implementing **Step 2.** AxonIQ is a nice framework to implement 
