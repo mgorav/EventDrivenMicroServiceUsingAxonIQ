@@ -30,7 +30,7 @@ it's impossible to create micro-service out of model. The below picture shows  C
     
 ````
 
-This will run the application on the port 8888. All the API exposed can be accessed by open the swagger ui as shown below:
+This will run the application on the port 8888. All the APIs exposed can be accessed by open the swagger ui as shown below:
 
 ````
     http://localhost:8888/swagger-ui.html
