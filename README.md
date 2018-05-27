@@ -26,7 +26,7 @@ In my opinion a monolithic application can be split into micro-services based ar
 **Step 2.** Cut Module inter-dependencies
 
 The **Step 2** is very important and is the make or break situation in the endeavour to rollout micro-services based architecture.
-Event Driven architecture style plays very important part in implementing Step 2. AxonIQ is a nice framework to implement 
+Event Driven architecture style plays very important part in implementing **Step 2.** AxonIQ is a nice framework to implement 
 Event Driven programing model in a Domain Driven Design way.
 
 EventDrivenMicroServiceUsingAxonIQ mico-serivce is Policy application with:
