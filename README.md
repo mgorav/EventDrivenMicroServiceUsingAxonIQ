@@ -40,7 +40,7 @@ EventDrivenMicroServiceUsingAxonIQ mico-serivce is Policy application with:
 3. Events are stored in embedded AxonIQDB  (using async JPA)
 4. READ is performed using JPA [using jpa-eclipselink](https://github.com/mgorav/jpa-eclipselink) + Derby
 5. Inter module interaction can be in JVM interaction or over http or WebSocken etc. AxonIQ routes an event to an Event Bus (which
-can be AxonIQDB or Kafka or [pumpkin db](http://pumpkindb.org)). The subscriber of an event can either go over http (or
+can then be stored in AxonIQDB or Kafka or [pumpkin db](http://pumpkindb.org)). The subscriber of an event can either go over http (or
 an other protocol) to action on the event request.
 6. Clear separation of domain object from entity (Policy is domain object & PolicyEntity is an entity - see class diagram below)
 
