@@ -21,7 +21,7 @@ _**NOTE: Key Concepts Normally Mixed  Up**_
 3. Event Driven != CQRS
 4. Event is never physically deleted i.e. delete is an another event. This aides in ML and AI
 
-### Monolith And Micro-Services And Role Of EDA
+### Monolith Splits To Micro-Services And Role Of EDA
 In my opinion a monolithic application can be split into micro-services based architecture in following steps:
 
 **Step 1.** Implement Modularization i.e. create modules, each module is dedicated to perform single functional responsibility
