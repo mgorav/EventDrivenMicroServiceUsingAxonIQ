@@ -48,7 +48,7 @@ NOTE:
 they are not tightly coupled. This is of great help in creating modularization.
 
 Below is the domain of of  EventDrivenMicroServiceUsingAxonIQ:
-      ![alt text](./images/CQRS_CLASS_MODEL.jpg)
+      ![alt text](./images/ClassModel.jpg)
  
  The following picture shows EventDrivenMicroServiceUsingAxonIQ from AxonIQ framework prospective:
  
