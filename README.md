@@ -27,7 +27,8 @@ In my opinion a monolithic application can be split into micro-services based ar
 
 The **Step 2** is very important and is the make or break situation in the endeavour to rollout micro-services based architecture.
 Event Driven architecture style plays very important part in implementing **Step 2.** AxonIQ is a nice framework to implement 
-Event Driven programing model in a Domain Driven Design way.
+Event Driven programing model in a Domain Driven Design way. Using AxonIQ it's possible to work with root aggregator domain
+entity (Policy)
 
 EventDrivenMicroServiceUsingAxonIQ mico-serivce is Policy application with:
 1. Separate WRITE model
@@ -38,8 +39,11 @@ EventDrivenMicroServiceUsingAxonIQ mico-serivce is Policy application with:
 can be AxonIQDB or Kafka or [pumpkin db](http://pumpkindb.org)). The subscriber of an event can either go over http (or
 an other protocol) to action on the event request.
 
-NOTE: In above programming style, write needs to fast & asynchronous. JPA vendor does not provide async persitence but 
-[using jpa-eclipselink](https://github.com/mgorav/jpa-eclipselink) this can be achieved
+NOTE: In above programming style, write needs to fast & asynchronous. JPA vendor does not provide async persistence but 
+[using jpa-eclipselink](https://github.com/mgorav/jpa-eclipselink) this can be achieved.
+
+Below is the domain of of  EventDrivenMicroServiceUsingAxonIQ:
+      ![alt text](./images/CQRS_CLASS_MODEL.jpg)
  
  The following picture shows EventDrivenMicroServiceUsingAxonIQ from AxonIQ framework prospective:
  
