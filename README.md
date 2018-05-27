@@ -2,8 +2,7 @@
 
 The first step towards moving from monolithic application to micro-services based architecture is craving out modules,
 where each module represent a potential micro-service. But if, modules have dependencies on each other (via pom.xml) 
-it's impossible to create micro-service out of model. The **separation of concerns** design pattern profess separation 
-writes from the READ
+it's impossible to create micro-service out of model. The below picture shows  Command Query Responsibility Segregation 
 
 ![alt text](./images/CQRS.jpg)
  
