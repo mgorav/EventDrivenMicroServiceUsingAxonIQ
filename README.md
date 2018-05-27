@@ -8,6 +8,7 @@ The corner stone in implementing CQRS is event driven architecture. In simple te
 modules interact with each other using EVENT and each module are independent & not aware of each other. The module enroll/subscribe to event
 & take actions. This enable use to cut the module dependencies (in pom.xml) and ease out creation of micro-services.
 
+The following picture shows CQRS design pattern build using event driven architecture:
 
 ![alt text](./images/CQRS.jpg)
 
