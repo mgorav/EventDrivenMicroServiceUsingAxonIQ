@@ -17,7 +17,20 @@ NOTE:
 2. EVENT != MESSAGE
 3. Event Driven != CQRS
 
+In my opinion a monolithic application can be split in micro-services bases architecture in following steps:
+Step 1. Implement Modularization i.e. create modules, each module is dedicated to perform single functional responsibility
+   (also termed implementation of separation of concerns)
+Step 2. Cut Module inter-dependencies
 
+The Step 2 is very important and is the make & break situation in the endeavour to rollout micro-services based architecture.
+Event Driven architecture style plays very important part in implementing Step 2. AxonIQ provide a nice framework to implement 
+Event Driven architecture style and the nice part is it supports Domain Driven Design.
+
+EventDrivenMicroServiceUsingAxonIQ is Policy application with:
+1. Separate WRITE model
+2. Separte READ model
+3. Event are stored in embedded AxonIQDB  (using async JPA)
+4. READ is performed using JPA [using jpa-eclipselink](https://github.com/mgorav/jpa-eclipselink) + Derby
 
  
 
