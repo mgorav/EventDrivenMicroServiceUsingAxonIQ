@@ -16,6 +16,7 @@ NOTE:
 1. If QUERY model is not complex, do not go in the direction of CQRS
 2. EVENT != MESSAGE
 3. Event Driven != CQRS
+4. Event is never physical deleted i.e. delete is another event. This aides in ML and AI
 
 In my opinion a monolithic application can be split in micro-services bases architecture in following steps:
 Step 1. Implement Modularization i.e. create modules, each module is dedicated to perform single functional responsibility
