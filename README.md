@@ -20,7 +20,7 @@ _**NOTE: Key Concepts Normally Mixed  Up**_
 2. EVENT != MESSAGE
 3. Event Driven != CQRS
 4. Event is never physically deleted i.e. delete is an another event. This aides in ML and AI
-e.g. Mr X first purchased Apple iphone and then canceled it and ultimately bought Samsung S9. This information is gold dust for Data Scientist and helps them understand cus
+e.g. Mr X first purchased Apple iphone and then canceled it and ultimately bought Samsung S9. This information is gold dust for Data Scientist and helps them understand customer purchase behaviour pattern.
 
 ### Monolith Splits To Micro-Services And Role Of EDA
 In my opinion a monolithic application can be split into micro-services based architecture in following steps:
