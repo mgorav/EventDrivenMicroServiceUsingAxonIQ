@@ -50,7 +50,7 @@ an other protocol) to action on the event request.
 2) Domain model is not anemic and also there is a clear separation of domain API from entity (persistence mechanism), 
 they are not tightly coupled. This is of great help in creating modularization.
 
-Below is the domain of of  EventDrivenMicroServiceUsingAxonIQ:
+Below is the domain of EventDrivenMicroServiceUsingAxonIQ:
       ![alt text](./images/ClassModel.jpg)
  
  The following picture shows EventDrivenMicroServiceUsingAxonIQ from AxonIQ framework prospective:
