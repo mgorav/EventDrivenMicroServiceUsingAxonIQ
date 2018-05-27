@@ -6,7 +6,7 @@ The starting point of **CQRS** design pattern is the notion of _differentiating 
 This design pattern professes if the QUERY capabilities of an application is very different or complex or may be, 
 relational DB are not apt for querying (scalable, performant), it's better to separate/segregate  **query model** from **write model.**
 
-The corner stone in implementing CQRS is **Event Driven Architecture**. In simple terminology, in event driven architecture,
+The center stone in implementing CQRS is **Event Driven Architecture**. In simple terminology, in event driven architecture,
 modules interact with each other using EVENT and each module are independent & not aware of each other. The module 
 enroll/subscribe to event & take actions. It also help in cutting module dependencies (in pom.xml) and ease out 
 creation of micro-services.
