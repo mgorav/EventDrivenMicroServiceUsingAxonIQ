@@ -34,10 +34,16 @@ EventDrivenMicroServiceUsingAxonIQ mico-serivce is Policy application with:
 2. Separate READ model
 3. Events are stored in embedded AxonIQDB  (using async JPA)
 4. READ is performed using JPA [using jpa-eclipselink](https://github.com/mgorav/jpa-eclipselink) + Derby
+5. Inter module interaction can be in JVM interaction or over http or WebSocken etc. AxonIQ routes an event to an Event Bus (which
+can be AxonIQDB or Kafka or [pumpkin db](http://pumpkindb.org)). The subscriber of an event can either go over http (or
+an other protocol) to action on the event request.
 
-NOTE: In above programining style, write needs to fast & asynchronous. JPA vendor does not provide async persitence but 
+NOTE: In above programming style, write needs to fast & asynchronous. JPA vendor does not provide async persitence but 
 [using jpa-eclipselink](https://github.com/mgorav/jpa-eclipselink) this can be achieved
  
+ The following picture shows EventDrivenMicroServiceUsingAxonIQ from AxonIQ framework prospective:
+ 
+![alt text](./images/CQRS_ED.jpg)
 
 ### Instructions to setup and run EventDrivenMicroServiceUsingAxonIQ
 1. Download & setup jpa-eclipse for async persistence in local maven repo
@@ -73,7 +79,7 @@ This will run the application on the port 8888. All the APIs exposed can be acce
  
  
  ### Conclusion
- In compositional micro-services based architecture, think EVENT based interactions. This make each micro-service 
+ In compositional micro-services based architecture, **think EVENT based inter module interactions.** This make each micro-service 
  independent of each other. This helps in rolling out new functionality as micro-service fast. Also this style aides
  in building serverless micro-services or function as service.
  
