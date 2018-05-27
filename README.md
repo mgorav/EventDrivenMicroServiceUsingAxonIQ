@@ -15,7 +15,7 @@ The following picture shows CQRS design pattern build using event driven archite
 
 ![alt text](./images/CQRS.jpg)
 
-NOTE:
+#####NOTE: Key Concepts Normally Mixed  Up
 1. If QUERY model is not complex, do not go in the direction of CQRS
 2. EVENT != MESSAGE
 3. Event Driven != CQRS
