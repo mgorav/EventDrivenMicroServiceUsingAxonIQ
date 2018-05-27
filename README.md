@@ -80,7 +80,7 @@ Below is the domain of EventDrivenMicroServiceUsingAxonIQ:
     
 ````
 
-This will run the application on the port 8888. All the APIs exposed can be accessed by open the swagger ui as shown below:
+This will run the application on the port 8888. All the APIs exposed can be accessed by opening the swagger ui as shown below:
 
 ````
     http://localhost:8888/swagger-ui.html
