@@ -1,6 +1,6 @@
 ##  CQRS-based event driven architecture using Spring BOOT + AxonIQ + Async JPA Persistence
 
-The first step towards moving from monolithic application to micro-services based architecture is craving out modules,
+The first step towards moving from monolithic application to micro-services based architecture is carving out modules,
 where each module represent a potential micro-service. But if, modules have dependencies on each other (via pom.xml) 
 it's impossible to create micro-service out of model. The below picture shows  Command Query Responsibility Segregation 
 
