@@ -4,10 +4,10 @@
 ### Overview
 The starting point of **CQRS** design pattern is the notion of _differentiating between READ and WRITE model_. 
 This design pattern professes if the QUERY capabilities of an application is very different or complex or may be, 
-relational DB are not apt for querying (scalable, performant), it's better to separate/segregate  **query model** from **write model.**
+relational DB are not apt for querying (scalable, performant etc), it's better to separate/segregate **query model** from **write model.**
 
 The center stone in implementing CQRS is **Event Driven Architecture**. In event driven architecture,
-modules interact with each other using EVENT and each module are independent & not aware of each other. The module 
+modules interact with each other using EVENT and each module is independent & not aware of the other. The module 
 enroll/subscribe to event & take actions. It also help in cutting module dependencies (in pom.xml) and ease out 
 creation of micro-services.
 
