@@ -7,9 +7,9 @@ This design pattern professes if the QUERY capabilities of an application is ver
 relational DB are not apt for querying (scalable, performant etc), it's better to separate/segregate **query model** from **write model.**
 
 The center stone in implementing CQRS is **Event Driven Architecture**. In event driven architecture,
-modules interact with each other using EVENT and each module is independent & not aware of the other. The module 
-enroll/subscribe to event & take actions. It also help in cutting module dependencies (in pom.xml) and ease out 
-creation of micro-services.
+modules interact with each other using EVENT and each module is independent & not aware of the other. In other words this architecture style enable **Location transparency**. To re-iterate, a component should neither be aware of nor make any assumptions about the location components it interact with. The module enroll/subscribe to event & take actions. It also help in cutting module dependencies (in pom.xml) and ease out creation of micro-services.
+
+
 
 The following picture shows CQRS design pattern build using event driven architecture:
 
