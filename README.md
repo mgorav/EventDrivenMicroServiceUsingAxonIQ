@@ -92,6 +92,13 @@ This will run the application on the port 8888. All the APIs exposed can be acce
  ![alt text](./images/swaggerui.png)
  
  
+ ## PCF
+ ````bash
+   cf push target/EvendDrivenMicroServiceUsingAxonIQ-0.0.1-SNAPSHOT.jar
+ ````
+ 
+ Access URL - https://eventdrivenmicroserviceusingaxoniq.cfapps.io/swagger-ui.html
+ 
  ### Conclusion
  In compositional micro-services based architecture, **think EVENT based inter module interactions.** This make each micro-service 
  independent of each other. This helps in rolling out new functionality as micro-service fast. Also this architecture & programing style aides
