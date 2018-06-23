@@ -1,0 +1,3 @@
+applications:
+- name: EventDrivenMicroServiceUsingAxonIQ
+  path: target/EvendDrivenMicroServiceUsingAxonIQ-0.0.1-SNAPSHOT.jar
